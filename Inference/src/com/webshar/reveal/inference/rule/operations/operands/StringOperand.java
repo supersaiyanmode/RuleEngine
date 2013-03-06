@@ -4,9 +4,14 @@ import com.webshar.reveal.inference.rule.operations.Operand;
 
 public class StringOperand implements Operand {
 
+	private final String value_;
+
+	public StringOperand(String str) {
+		this.value_ = str;
+	}
+
 	public String value() {
-		// TODO Auto-generated method stub
-		return null;
+		return value_;
 	}
 
 }

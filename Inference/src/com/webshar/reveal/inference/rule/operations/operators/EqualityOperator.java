@@ -6,7 +6,7 @@ import com.webshar.reveal.inference.rule.operations.Operator;
 import com.webshar.reveal.inference.rule.operations.operands.BooleanOperand;
 import com.webshar.reveal.inference.rule.operations.operands.NumericOperand;
 import com.webshar.reveal.inference.rule.operations.operands.StringOperand;
-import com.webshar.reveal.inference.rule.operations.operationresult.BooleanOperationResult;
+import com.webshar.reveal.inference.rule.operations.result.BooleanOperationResult;
 
 public class EqualityOperator implements Operator {
 

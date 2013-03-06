@@ -1,4 +1,4 @@
-package com.webshar.reveal.inference.rule.operations.operationresult;
+package com.webshar.reveal.inference.rule.operations.result;
 
 import com.webshar.reveal.inference.rule.operations.OperationResult;
 
