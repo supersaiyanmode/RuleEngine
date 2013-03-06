@@ -1,0 +1,30 @@
+<rules>
+	<rule>
+		<test type=”equals”>
+			<operand>
+				<xpath>/path/to/element</xpath>
+			</operand>
+			<operand>
+				<string>diabetes</string>
+			</operand>
+		</test>
+		<output>
+			<result value=”true”>ICD code here</result>
+			<result value=”false”></result>
+		</output>
+	</rule>
+	<rule>
+		<test type=”string-contains”>
+			<operand>
+				<xpath>/path/to/element</xpath>
+			</operand>
+			<operand>
+				<string>diabetes</string>
+			</operand>
+		</test>
+		<output>
+			<result value=”true”>ICD code here</result>
+			<result value=”false”></result>
+		</output>
+	</rule>
+</rules>
